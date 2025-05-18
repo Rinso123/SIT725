@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<head>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container calculator z-depth-3">
+    <div class="display" id="display">0</div>
+    <div class="row">
+      <div class="col s3"><a class="btn-flat waves-effect">7</a></div>
+      <div class="col s3"><a class="btn-flat waves-effect">8</a></div>
+      <div class="col s3"><a class="btn-flat waves-effect">9</a></div>
+      <div class="col s3"><a class="btn-flat waves-effect orange-text">/</a></div>
+    </div>
+    <div class="row">
+      <div class="col s3"><a class="btn-flat waves-effect">4</a></div>
+      <div class="col s3"><a class="btn-flat waves-effect">5</a></div>
+      <div class="col s3"><a class="btn-flat waves-effect">6</a></div>
+      <div class="col s3"><a class="btn-flat waves-effect orange-text">*</a></div>
+    </div>
+    <div class="row">
+      <div class="col s3"><a class="btn-flat waves-effect">1</a></div>
+      <div class="col s3"><a class="btn-flat waves-effect">2</a></div>
+      <div class="col s3"><a class="btn-flat waves-effect">3</a></div>
+      <div class="col s3"><a class="btn-flat waves-effect orange-text">-</a></div>
+    </div>
+    <div class="row">
+      <div class="col s3"><a class="btn-flat waves-effect">0</a></div>
+      <div class="col s3"><a class="btn-flat waves-effect">.</a></div>
+      <div class="col s3"><a class="btn-flat waves-effect green-text">=</a></div>
+      <div class="col s3"><a class="btn-flat waves-effect orange-text">+</a></div>
+    </div>
+    <div class="row">
+      <div class="col s6"><a class="btn-flat waves-effect red-text">C</a></div>
+      <div class="col s6"><a class="btn-flat waves-effect red-text">DEL</a></div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+  <footer class="page-footer">
+    <a href="/past-calculations" role="button" class="btn-flat waves-effect orange-text"> See past calculations
+    </a>
+  </footer>
+</body>
+
+</html>
